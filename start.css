@@ -1,0 +1,70 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url("start.jfif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+@font-face {
+    font-family: specialagent;
+    src: url(specialagent.otf);
+}
+@font-face {
+    font-family: h3;
+    src: url(NewCowboyDemoRegular.ttf);
+}
+
+.start{
+    text-align: center;
+    margin-top: 350px;
+}
+.start h1{
+    font-family: specialagnet;
+    font-size: 100px;
+    color: black;
+    text-shadow: 7px 7px 12px white;
+    
+}
+.start h3{
+    font-size: 30px;
+    font-family: h3 ;
+    color: black;
+    text-shadow: 2px 2px 5px white;
+    margin-top: 10px;
+}
+.start #dugme{
+background-color: black;
+font-size: 30px;
+font-weight: bold;
+border-radius: 20px;
+padding: 10px;
+margin-top: 20px;
+box-shadow: 10px 10px 10px blueviolet;
+
+}
+.start #dugme a{
+    text-decoration: none;
+    color: whitesmoke;
+    text-shadow: 2px 2px 3px blueviolet;
+}
+.start #dugme a:hover{
+    color: cornflowerblue;
+    cursor: pointer;
+}
+.start #dugme:hover{
+    padding: 12px;
+    font-size: 32px;
+    border-radius: 22px;
+    cursor: pointer;
+}
+@keyframes Animacija{
+    0% {top: 0px; left: 0px;}
+    25%{top: 0px; left: 300px;}
+    50%{top: 300px; left: 300px;}
+    75%{top: 300px; left: 0px;}
+    100%{top: 0px; left: 0px;}
+}
